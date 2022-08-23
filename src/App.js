@@ -55,7 +55,7 @@ const App = () => {
   return (
     <div className="mainContainer">
       <h1>Memory Card Game</h1>
-      <button onClick={shuffleArray}>New Game</button>
+      <button onClick={shuffleArray}>Start kr kalra baby</button>
       {turns > 0 && <div className="Turn">{turns +"Turns"}</div>}
       <div className="card-grid">
         {cardData.length > 0 &&
